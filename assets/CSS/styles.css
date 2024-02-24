@@ -4,6 +4,7 @@
     padding: 0px;
     color: #d3d0cf;
     
+    
 }
 /* .font_color{
     color: #d3d0cf;
@@ -26,7 +27,7 @@ body{
 .menu_bar{
     width: 15%;
     height: 100%;
-    background-color:#436850;
+    background-color:#272829;
     
     
 }
@@ -67,29 +68,42 @@ body{
 }
 .header_bar{
     padding:30px;
-    height: 10%;
-    background-color: #436850;
+    height:12%;
+    background-color: #272829;
     
 }
-.search_bar {
+.header_layer1 {
     display: flex;
-    gap: 15px;
-    
-    
-    }
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 200px; */
+ }
 .search{
-    width: 50%;
-    height: 25px;
+    width: 700px; 
+    padding: 8px;
     border-radius: 20px;
     background-color:#ADBC9F;
+    border: none;
+}
+.search_bar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profile_container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    
 }
 .bell{
-    margin-left: 450px;
+    font-size: 20px;
+    padding-right: 22px;
+    
 }
 .dp{
     display: flex;
-    margin-top: -15px;
-    margin-left: 5px;
+    
     justify-content: center;
     width: 3em;
     height: 3em;
@@ -98,30 +112,50 @@ body{
     
 }
 .dp2{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 5px;
-    justify-content: center;
+    
     width: 4em;
     height: 4em;
     border-radius: 50%;
     
     
 }
-.hi{
-    position: absolute;
-    margin-left: 80px;
-    margin-top: -55px;
+
+.header_layer2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_layer2_content{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.HI{
+    
     font-size: 15px;
     
 }
-.name{
-    position: absolute;
-    margin-left: 80px;
-    margin-top: -35px;
+.Name{
+    
     font-size: 20px;
-    display: flex;
+    
 }
+.button_container{
+    margin-right:15px;
+    display: flex;
+    gap: 15px;
+}
+.button{
+    background-color:black;
+    padding: 8px 20px ;
+    border-radius: 15px;
+    border:solid 1px #ADBC9F;
+}
+
 .horizontal_line {
     background-color:#ADBC9F;
     width: 100%;
@@ -132,65 +166,99 @@ body{
 
 .body_container{
     width: 100%;
-    height: 83.2%;
-    background-color: #12372A;
+    height: 81.2%;
+    background-color: black;
     display: flex;
     
 }
 .body_left{
-    width:80%;
+    width:75%;
     margin: 30px 0px 0px 20px;
     
 }
 .body_right{
-    width:20%;
-    margin: 30px 0px 0px 20px;
+    width:25%;
+    height: 100%;
+    padding: 20px 20px;
+    padding-right: 50px;
 }
-.project1{
-    
-    
-    border-radius: 10px;
+.project_container{
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
-.project1_content{
-    width: 400px;
-    background-color:#436850;
-    /* padding: 10px; */
-    margin: 10px;
+.project_container1{
+    background-color:#272829;
     border-radius: 15px;
+    width: 500px;
+    height: 200px;
     display: flex;
-
+    margin: 10px;
+    
 }
+
+
 .border{
+    
     width: 30px;
     height: 100%;
     
-    background-color: blueviolet;
+    background-color: #8B008B;
     border-radius: 15px 0px 0px 15px;
 
 }
 .wordings{
     padding: 10px;
+    font-size: 17px;
+}
+.project_icons{
+    
+    display: flex;
+    justify-content: end;
+    
+    padding: 30px 35px;
+    
+    
+    gap: 20px;
 }
 .Announcement_box{
-    width: 280px;
+    width: 90%;
+    
     margin: 10px 0px 10px 0px;
     border-radius: 15px;
-    padding: 8px;
-    background-color:#436850;
+    
+    padding: 32px 20px;
+    background-color:#272829;
 }
 .content1{
     padding: 10px;
+    font-size: 17px;
 }
 .horizontal_line2 {
     background-color:#ADBC9F;
     width: 100%;
   height:1px;
   justify-items: center;
-    }
+}
+.people_box{
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    width: 100%;
+    border-radius: 15px;
+    background-color:#272829 ;
+}
 
-
+.avatar{
     
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 30px;
+}
+.ID{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    
+}
